@@ -73,12 +73,14 @@ class Header extends React.Component {
     dispatch(addPageItem(key));
   }
 
+  // 预览
   onPreview = () => {
     const { showPreview, state } = this.props;
     this.mLzLocalStorage.set(LOCALSTORAGE_PREVIEW_CHACHE, state);
     showPreview();
   }
 
+  // 发布
   onPublish = () => {
     const { state } = this.props;
     // // 远程存储用户预览模板
@@ -106,6 +108,7 @@ class Header extends React.Component {
     this.setState({ showMusicModal: flag });
   }
 
+  // 添加图片
   onAddPciture = imgSrc => () => {
     const { dispatch } = this.props;
     dispatch(addPageItemWithAttrs(COMPONENT_TYPE_PICTURE, { imgSrc }));
@@ -155,6 +158,7 @@ class Header extends React.Component {
     dispatch(changeBackMusicUrl(src));
   }
 
+  // 撤销
   onUndo = () => {
     const store = HistoryStore.undo();
     if (store) {
@@ -163,6 +167,7 @@ class Header extends React.Component {
     }
   }
 
+  // 重做
   onRedo = () => {
     const store = HistoryStore.redo();
     if (store) {

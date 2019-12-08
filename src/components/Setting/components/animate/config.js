@@ -118,6 +118,14 @@ export default function () {
           title: '底部放大',
           key: 'zoomInUp',
         },
+        // {
+        //   title: '中心缩小',
+        //   key: 'zoomOut',
+        // },
+        // {
+        //   title: '顶部缩小',
+        //   key: 'zoomOutDown',
+        // }
       ],
     },
     {

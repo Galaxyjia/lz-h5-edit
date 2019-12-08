@@ -30,6 +30,10 @@ const defaultList = [
     name: '婚礼进行曲',
     url: 'http://www.lzuntalented.cn/assets/music/hljinxingqu.mp3',
   },
+  {
+    name: '网易音乐',
+    url: 'http://music.163.com/song/media/outer/url?id=447925558.mp3',
+  },
 ];
 
 export default class ImageList extends React.Component {

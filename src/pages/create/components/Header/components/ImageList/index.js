@@ -11,6 +11,8 @@ const defaultList = [
   'http://www.lzuntalented.cn/img/double11/5daff75820657.png',
   'http://www.lzuntalented.cn/img/double11/5daff758207ee.gif',
   'http://www.lzuntalented.cn/img/double11/5daff75845ebc.png',
+  'http://chuantu.xyz/t6/703/1575802380x2890191687.jpg',
+  'http://chuantu.xyz/t6/703/1575802448x3703728804.jpg',
 ];
 
 export default class ImageList extends React.Component {

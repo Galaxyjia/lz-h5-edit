@@ -16,6 +16,10 @@ export function getFontFamilyOptions() {
       key: 'wencangshufang',
       text: '问藏书房',
     },
+    {
+      key: 'fangzhengteyasong',
+      text: '方正特雅宋',
+    },
   ];
   return list;
 }
